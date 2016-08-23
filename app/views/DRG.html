@@ -1,0 +1,17 @@
+  <div class="row">
+    <div class="col-lg-12">
+      <h1 class="page-header">DRG</h1>
+    </div>
+    <!-- /.col-lg-12 -->
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-sm-12" id="doughnut-chart" ng-controller="ChartCtrl">
+      <div class="panel panel-default">
+        <div class="panel-heading">DRG</div>
+        <div class="panel-body">
+          <canvas id="doughnut" class="chart chart-doughnut chart-xs" data="drgChart.data" labels="drgChart.labels"
+                  legend="false"></canvas>
+
+        </div>
+      </div>
+    </div>
